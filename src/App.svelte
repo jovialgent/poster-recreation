@@ -18,7 +18,7 @@
     height: 100vh;
     display: grid;
     gap: 4em;
-    padding: 2em;
+    padding:1em;
     grid-template-columns: 1fr;
 
     @include respond-to("small") {
