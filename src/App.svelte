@@ -14,11 +14,11 @@
   @import "../node_modules/normalize.css/normalize.css";
   @import "./scss/responsive.scss";
   .app {
-    width: 100vw;
-    height: 100vh;
+    width:100%;
+    height:100%;
     display: grid;
     gap: 4em;
-    padding:1em;
+    padding:1.5em;
     grid-template-columns: 1fr;
 
     @include respond-to("small") {
