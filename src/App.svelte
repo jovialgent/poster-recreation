@@ -1,10 +1,12 @@
 <script lang="ts">
   import GurafikuReviewPoster from "./lib/GurafikuReviewPoster.svelte";
   import LucioCapece from "./lib/LucioCapece.svelte";
+  import Metro from "./lib/Metro.svelte";
 </script>
 
 <main>
   <div class="app">
+    <Metro />
     <GurafikuReviewPoster />
     <LucioCapece />
   </div>
@@ -18,7 +20,7 @@
     height: 100vh;
     display: grid;
     gap: 4em;
-    padding:1em;
+    padding: 1em;
     grid-template-columns: 1fr;
 
     @include respond-to("small") {
