@@ -12,14 +12,18 @@
 
 <style lang="scss">
   @import "../node_modules/normalize.css/normalize.css";
-
+  @import "./scss/responsive.scss";
   .app {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 4em;
     padding: 2em;
+    grid-template-columns: 1fr;
+
+    @include respond-to("small") {
+      grid-template-columns: 1fr 1fr;
+    }
 
     .poster {
       margin: 1rem;
