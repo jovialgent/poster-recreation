@@ -83,6 +83,9 @@
 
   .poster {
     @include poster();
+    
+    
+    font-family: "Josefin Sans", sans-serif;
     &__container {
       &--wrapper {
         @include containerWrapper();
