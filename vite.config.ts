@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [svelte()],
   base: "/poster-recreation/",
   build: {
-    outDir: "dist",
+    outDir: "docs",
   },
 });
