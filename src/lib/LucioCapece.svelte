@@ -176,8 +176,6 @@
     &__text {
       text-transform: uppercase;
       opacity: 0.65;
-      font-family: "Bebas Neue", cursive;
-      font-family: "Josefin Sans", sans-serif;
       font-family: "Work Sans", sans-serif;
       font-weight: 600;
       color: black;

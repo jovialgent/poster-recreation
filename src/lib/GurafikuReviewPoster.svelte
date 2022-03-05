@@ -106,6 +106,7 @@
         letter-spacing: 2rem;
         font-size: 2rem;
         margin: 0;
+        text-transform: uppercase;
       }
       &__letter {
         display: block;
