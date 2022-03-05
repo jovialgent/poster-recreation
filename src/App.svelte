@@ -6,9 +6,9 @@
 
 <main>
   <div class="app">
-    <Metro />
     <GurafikuReviewPoster />
     <LucioCapece />
+    <Metro />
   </div>
 </main>
 
