@@ -163,7 +163,7 @@
     }
 
     @mixin metroImage() {
-      background: url(images/alpaca.jpeg);
+      background: url("../alpaca.jpeg");
       height: 348.8px;
       width: 238px;
       background-size: cover;
