@@ -26,7 +26,7 @@
     height: 100%;
     display: grid;
     gap: 4em;
-    
+    padding:2em 0em;
     grid-template-columns: 1fr;
     
 
