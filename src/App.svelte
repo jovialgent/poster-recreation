@@ -2,6 +2,7 @@
   import GurafikuReviewPoster from "./lib/GurafikuReviewPoster.svelte";
   import LucioCapece from "./lib/LucioCapece.svelte";
   import Metro from "./lib/Metro.svelte";
+  import Strasbourg from "./lib/Strasbourg.svelte";
 </script>
 
 <main>
@@ -9,6 +10,7 @@
     <GurafikuReviewPoster />
     <LucioCapece />
     <Metro />
+    <Strasbourg />
   </div>
 </main>
 
@@ -16,11 +18,11 @@
   @import "../node_modules/normalize.css/normalize.css";
   @import "./scss/responsive.scss";
   .app {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     display: grid;
     gap: 4em;
-    padding:1.5em;
+    padding: 1.5em;
     grid-template-columns: 1fr;
 
     @include respond-to("small") {

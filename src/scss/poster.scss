@@ -7,6 +7,9 @@ $posterHeight: 24px * $posterSize;
   align-items: center;
   justify-content: center;
   margin: 0.25rem;
+  p {
+    margin: 0;
+  }
 }
 
 @mixin containerWrapper() {
