@@ -17,13 +17,18 @@
 <style lang="scss">
   @import "../node_modules/normalize.css/normalize.css";
   @import "./scss/responsive.scss";
+
+  body{
+    overflow-x: hidden;
+  }
   .app {
     width: 100%;
     height: 100%;
     display: grid;
     gap: 4em;
-    padding: 1.5em;
+    
     grid-template-columns: 1fr;
+    
 
     @include respond-to("small") {
       grid-template-columns: 1fr 1fr;
@@ -31,6 +36,7 @@
 
     .poster {
       margin: 1rem;
+      
     }
   }
 </style>
