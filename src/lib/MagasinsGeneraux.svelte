@@ -4,6 +4,12 @@
 
 <div class="poster">
   <section class="poster__container--wrapper">
+    <section class="poster__container--image--red-crosse" />
+    <section class="poster__container--image--gunyon" />
+    <section class="poster__container--image--britomart" />
+    <section class="poster__container--image--friendship" />
+    <section class="poster__container--image--justice" />
+    <section class="poster__container--image--courtesy" />
     <section class="poster__container--overlay" />
     <section class="poster__container--bg" />
     <section class="poster__container--title">
@@ -36,8 +42,8 @@
         <h1 class="text--info text--info--header">Gunyon</h1>
         <h2 class="text--info text--info--subheader">Knight of Temperance</h2>
         <p class="text--info">
-          King Arthur comes in and kills a bunch of zombies. (And I guess
-          Gunyon does stuff too.)
+          King Arthur comes in and kills a bunch of zombies. (And I guess Gunyon
+          does stuff too.)
         </p>
       </section>
     </section>
@@ -67,8 +73,9 @@
         <h1 class="text--info text--info--header">Aretgall</h1>
         <h2 class="text--info text--info--subheader">Knight of Justice</h2>
         <p class="text--info">
-          Britomart's husband with a robot goes to a thinly veiled metaphor for
-          Ireland and kills everyone. (Seriously, Spenser hates Ireland)
+          Britomart's future husband with a robot goes to a thinly veiled
+          metaphor for Ireland and kills everyone. (Seriously, Spenser hates
+          Ireland)
         </p>
       </section>
     </section>
@@ -77,9 +84,8 @@
         <h1 class="text--info text--info--header">Calidore</h1>
         <h2 class="text--info text--info--subheader">Knight of Courtesy</h2>
         <p class="text--info">
-          I haven't read this one yet, but any page I go to there are
-          mentions of planets; so I am just imagining Space Knights fighting
-          Space Demons.
+          I haven't read this one yet, but any page I go to mentions planets; so
+          I am just imagining Space Knights fighting Space Demons.
         </p>
       </section>
     </section>
@@ -227,6 +233,86 @@
   .poster {
     @include poster();
     &__container {
+      &--image {
+        &--red-crosse {
+          position: absolute;
+          top: 67px;
+          left: 16px;
+          background: url("../../public/magasins/red-crosse.jpeg");
+          height: 144px;
+          width: 110px;
+          background-position: center;
+          background-size: cover;
+          @include generateScreenBg();
+          filter: grayscale(20%);
+          opacity: 0.75;
+        }
+        &--gunyon {
+          position: absolute;
+          top: 107px;
+          left: 306px;
+          background: url("../../public/magasins/gunyon.jpeg");
+          height: 214px;
+          width: 160px;
+          background-position: center;
+          background-size: cover;
+          @include generateScreenBg();
+          filter: grayscale(20%);
+          opacity: 0.75;
+        }
+        &--britomart {
+          position: absolute;
+          top: 335px;
+          left: 26px;
+          background: url("../../public/magasins/britomart.jpeg");
+          height: 113px;
+          width: 230px;
+          background-position: center;
+          background-size: cover;
+          @include generateScreenBg();
+          filter: grayscale(20%);
+          opacity: 0.75;
+        }
+        &--friendship {
+          position: absolute;
+          top: 326px;
+          left: 337px;
+          background: url("../../public/magasins/friendship.jpeg");
+          height: 133px;
+          width: 166px;
+          background-position: center;
+          background-size: cover;
+          @include generateScreenBg();
+          filter: grayscale(20%);
+          opacity: 0.75;
+        }
+        &--justice {
+          position: absolute;
+          top: 530px;
+          left: 16px;
+          background: url("../../public/magasins/justice.jpeg");
+          height: 252px;
+          width: 166px;
+          background-position: center;
+          background-size: cover;
+          @include generateScreenBg();
+          filter: grayscale(20%);
+          opacity: 0.75;
+        }
+        &--courtesy {
+          position: absolute;
+          top: 590px;
+          left: 246px;
+          background: url("../../public/magasins/courtesy.jpeg");
+          height: 252px;
+          width: 346px;
+          background-position: center;
+          background-size: cover;
+          @include generateScreenBg();
+          filter: grayscale(20%);
+          opacity: 0.75;
+        }
+      }
       &--knights {
         @include knightContainer(
           $top: 16px - $mgPosterBorderWidth,

@@ -8,11 +8,11 @@
 
 <main>
   <div class="app">
-    <MagasinsGeneraux />
     <GurafikuReviewPoster />
     <LucioCapece />
     <Metro />
     <Strasbourg />
+    <MagasinsGeneraux />
   </div>
 </main>
 
