@@ -1,9 +1,7 @@
 <script></script>
 
 <div class="poster">
-  <section class="poster__container--wrapper">
-    
-  </section>
+  <section class="poster__container--wrapper" />
 </div>
 
 <style lang="scss">
@@ -12,7 +10,7 @@
 
   .poster {
     @include poster();
-    
+
     &__container {
       &--wrapper {
         @include containerWrapper();

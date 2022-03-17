@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BornRuffian from "./lib/BornRuffian.svelte";
   import GurafikuReviewPoster from "./lib/GurafikuReviewPoster.svelte";
   import LucioCapece from "./lib/LucioCapece.svelte";
   import MagasinsGeneraux from "./lib/MagasinsGeneraux.svelte";
@@ -8,6 +9,7 @@
 
 <main>
   <div class="app">
+    <BornRuffian />
     <GurafikuReviewPoster />
     <LucioCapece />
     <Metro />
