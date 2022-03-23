@@ -9,12 +9,12 @@
 
 <main>
   <div class="app">
-    <BornRuffian />
     <GurafikuReviewPoster />
     <LucioCapece />
     <Metro />
     <Strasbourg />
     <MagasinsGeneraux />
+    <BornRuffian />
   </div>
 </main>
 
